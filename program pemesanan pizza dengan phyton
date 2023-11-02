@@ -14,3 +14,19 @@ elif  topping_pizza == 'Super Supreme Chicken':
     print ('anda telah memilih topping super supreme chicken')
 else :
     print ('topping tersebut tidak tersedia dalam daftar')
+#memilih crust pada pizza antara pan, stuffedcrust cheese, stuffedcrust sausage, chessy bites, crown crust
+    print ('silahkan memilih crust yang tersedia')
+    available_crust = str ('pan, stuffedcrust cheese, stuffedcrust sausage, chessy bites, crown crust')
+    print (available_crust)
+    crust = (input('silahkan memilih tambahan crust : '))
+    if crust == 'pan' :
+        Harga_Crust =+ 0 
+        print ('anda telah memilih crust pan dalam menu dengan harga',Harga_Crust )
+    elif crust == 'stuffedcrust cheese' :
+        Harga_Crust=HargaTopping + 12088
+        print ('anda telah memilih crust stuffedcrust cheese dalam menu dengan harga',Harga_Crust)
+    elif crust == 'stuffedcrust sausage' :
+        Harga_Crust =HargaTopping + 9361
+        print ('anda telah memilih crust stuffedcrust sausage dalam menu dengan harga',Harga_Crust)
+    elif crust == 'chessy bites' :
+        Harga_Crust =HargaTopping + 13636 
