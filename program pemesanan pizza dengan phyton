@@ -1,1 +1,16 @@
-
+#membuat program pemesanan pizza
+print('selamat datang di pizza RIFF')
+print('topping yang tersedia adalah Frankfurter, Meat Monsta, Super Supreme, Super Supreme Chicken')
+HargaTopping=43637
+topping_pizza = (input('silahkan memilih topping yang tersedia : '))
+#memilih toppinging pizza yang anda inginkan antara Frankfurter, Meat Monsta, Super Supreme, Super Supreme Chicken
+if  topping_pizza == 'Frankfurter' :
+    print('anda telah memilih topping Frankfurter')
+elif  topping_pizza == 'Meat Monsta' :
+    print('anda telah memilih topping Meat Monsta')
+elif  topping_pizza == 'Super Supreme' :
+    print('anda telah memilih topping super supreme')
+elif  topping_pizza == 'Super Supreme Chicken':
+    print ('anda telah memilih topping super supreme chicken')
+else :
+    print ('topping tersebut tidak tersedia dalam daftar')
