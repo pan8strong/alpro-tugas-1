@@ -45,5 +45,20 @@ print(pilihan_size)
 size = input('Pilih ukuran yang anda inginkan: ')
 if size == 'personal' :
     Harga_Size=Harga_Crust+0
-
+    print('Harga Pizza anda: Rp. ', Harga_Size)
+elif size == 'regular':
+    Harga_Size=Harga_Crust + 65455
+    print('Harga Pizza anda: Rp. ', Harga_Size)
+elif size == 'large' :
+    Harga_Size=Harga_Crust + 104545
+keju = (input('apakah anda menambahkan keju tambahan? (y/n) : '))
+#membuat pilihan ingin menambahkan keju ekstra atau tidak
+if keju == 'y' :
+    harga_keju = Harga_Size + 13636
+    print('terimakasih telah order di pizza RIFF kami!!!')
+    print('total bill pembayaran anda adalah : Rp.', harga_keju)
+else :
+    print('terimakasih telah order di pizza RIFF kami!!!')
+#total bill dari pilihan topping, crust, ukuran dan tambahan keju atau tidak
+    print('total bill pembayaran anda adalah : Rp.', Harga_Size)
 
